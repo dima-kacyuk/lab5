@@ -10,7 +10,7 @@ public class Task {
 
 		String str = new String("asbdqw++qweads-SADdad*dsad");
 		
-		System.out.println("Начальная строка: " + str);
+		System.out.println("РќР°С‡Р°Р»СЊРЅР°СЏ СЃС‚СЂРѕРєР°: " + str);
 		
 		char[] newCharStr = str.toCharArray();
 		int counter = 0;
@@ -25,8 +25,8 @@ public class Task {
 		String newStr = new String(newCharStr);
 		newStr = newStr.replaceAll("\\s", "");
 
-		System.out.println("Вариант 1:\nКол-во симолов в строке = " + counter);
-		System.out.println("Строка: " + newStr);
+		System.out.println("Р’Р°СЂРёРјРЅС‚ 1:\nРљРѕР»-РІРѕ СЃРёРјРІРѕР»РѕРІ РІ СЃС‚СЂРѕРєРµ = " + counter);
+		System.out.println("РќРѕРІР°СЏ СЃС‚СЂРѕРєР°: " + newStr);
 
 		counter = 0;
 
@@ -39,8 +39,8 @@ public class Task {
 				i--;
 			}
 		}
-		System.out.println("Вариант 2: \nКол-во символов в строке = " + counter);
-		System.out.println("Строка: " + sb);
+		System.out.println("Р’Р°СЂРёР°РЅС‚  2: \nРљРѕР»-РІРѕ СЃРёРјРІРѕР»РѕРІ РІ СЃС‚СЂРѕРєРµ = " + counter);
+		System.out.println("РќРѕРІР°СЏ СЃС‚СЂРѕРєР°: " + sb);
 	}
 
 }
